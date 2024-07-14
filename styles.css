@@ -1,0 +1,251 @@
+#title{
+    background-color: #ff4c68;
+}
+/* heading tumble */
+.logo-img{
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    left: -40px;
+    top: -60px;
+    padding: 10px;
+}
+#tumble{
+    font-family: "Shantell Sans";
+    font-size: 2.5rem;
+}
+.tagline{
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 2.5rem;
+    color: #a3d1da
+}
+
+/* navbar padding */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat-light";
+    font-size: 1.2rem;
+}
+
+/* container fluid is used to make the over whole screen  */
+.container-fluid{
+    padding: 3% 5% 21%;
+}
+/* buttons */
+.downloadbtn{
+    margin: 5% 3% 5% 0;
+}
+/* iphone image */
+.title-image{
+    width: 50%;
+    transform: rotate(-25deg);
+    position: absolute;
+    right: 30%;
+    
+}
+
+
+
+/* icons */
+.tick{
+    color: #ef8172;
+    font-size:2.5rem;
+    padding-bottom: 20px;
+}
+.tick:hover{
+    color: crimson;
+}
+
+/* three sections  */
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* paragraphs of three */
+.para{
+    color: grey;
+}
+
+
+
+/* testimonial section */
+#test{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+/* images of the people */
+.testimonial-image{
+    width : 20%;
+    border-radius: 100%;
+    margin: 20px;
+    float: left;
+}
+.city{
+   padding-left: 50%;
+}
+.testimonial-text{
+    padding-top: 5%;
+}
+
+/* marketing */
+
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-img{
+    width:15%;
+    margin: 20px 20px 50px;
+
+}
+
+/* cards */
+.card-padding{
+    padding: 5%;
+}
+#pricing{
+    padding: 5%;
+    text-align: center;
+}
+
+
+
+
+.pricing{
+    float: left;
+}
+#cta{
+    background-color:#ff4c68 ;
+    color: cyan;
+    text-align: center;
+    font-family: "Montserrat-black";
+}
+
+#footer{
+    background-color: #ff4c68;
+    text-align: center;
+    margin-top: 0%;
+    padding-bottom: 0px;
+    border-bottom: 1px;
+}
+.social-icons{
+    padding: 1%;
+}
+.last-text{
+    padding: 30px;
+}
+.top_btn{
+    border-radius: 100%;
+    background-color:#ff4c68;
+    border: 0px;
+    position: relative;
+    top: 40%;
+    left: 45%;
+    font-size: 2.5rem;
+}
+.drop{
+    width: 8px;
+    color: #ff4c68;
+    background-color: #ff4c68;
+    position: absolute;
+    top: 1%;
+}
+.dropdown_btn{
+    background-color: #ff4c68;
+}
+/* 
+most important thing to make websites responsive for other devices */
+
+@media (max-width: 1028px) {
+    .title-image{
+        transform: rotate(0);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+
+
+
+
+div.container
+{
+    font-family: Raleway;
+    margin: 0px;
+	padding: 0px;
+    position: relative;
+    bottom: 400%;
+	text-align: center;
+}
+
+div.container a
+{
+    color: #301515;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+div.topLeftBorders a:before
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 0px;
+    background: #FFF;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+    margin: 0%;
+    padding: 0%;
+}
+
+div.topLeftBorders a:after
+{
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+    margin: 0%;
+    padding: 0%;
+}
+
+div.topLeftBorders a:hover:before
+{
+    height: 100%;
+}
+
+div.topLeftBorders a:hover:after
+{
+    opacity: 0;
+    top: 100%;
+}
+
