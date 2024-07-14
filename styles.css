@@ -208,7 +208,7 @@ div.container a
 }
 
 
-div.topLeftBorders a:before
+/* div.topLeftBorders a:before
 {
     position: absolute;
     top: 0px;
@@ -248,4 +248,4 @@ div.topLeftBorders a:hover:after
     opacity: 0;
     top: 100%;
 }
-
+ */
