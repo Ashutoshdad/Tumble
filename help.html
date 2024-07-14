@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help and contact</title>
+    <link rel="stylesheet" href="help.css">
+
+    <link rel="icon" type="image/x-icon" href="/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/x-icon" href="/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/x-icon" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+</head>
+<body>
+
+      <div class="container">
+        <div class="inner">
+          <div class="panel panel-left">
+            <div class="panel-content">
+              <div class="image-background">
+                <img  class="phone" src="/images/iphone7.png">
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-right">
+            <div class="panel-content">
+              <div class="form">
+                <h1>Leave a comment</h1>
+                <div class="group " id="user">      
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <label>Your name</label>
+                </div>
+                <div class="group " id="pass">      
+                  <input type="email" required>
+                  <span class="highlight"></span>
+                  <label>Your email</label>
+                </div>
+                <button type="submit" class="send_btn" id="btn_login">send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu"></div>
+       
+      <script>
+        var button1 = document.getElementById("btn_login");
+      
+      button1.addEventListener("click", function(){
+        console.log("hey");
+        let username = document.getElementById("user").value.trim();
+        let pass = document.getElementById("pass").value.trim();
+        console.log("button clicked");
+        if(username === "" || pass === ""){
+          alert("Please fill the input boxes.");
+        }
+        else{
+          alert("Welcome ✨✨ your details have been stored");
+        }
+      });
+      
+      </script>
+
+
+    <center><a href="index.html"><button class="home_button">Back to Home Page</button></a></center>
+
+</html>

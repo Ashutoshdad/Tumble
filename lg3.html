@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Signup</title>
+	<link rel="icon" type="image/x-icon" href="/favicon/android-chrome-192x192.png">
+	<link rel="icon" type="image/x-icon" href="/favicon/android-chrome-512x512.png">
+	<link rel="icon" type="image/x-icon" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/x-icon" href="/favicon/favicon-16x16.png">
+	<link rel="icon" type="image/x-icon" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+
+	<link rel="stylesheet" href="Reg3.css">
+	  
+    
+    <!--bootstrap 5 loading......-->
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+	  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+	  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+	  crossorigin="anonymous"></script>
+  
+	<!-- bootstrap 4 loading..... -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+	  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	  crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+	  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	  crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+	  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	  crossorigin="anonymous"></script>
+
+
+	  <!-- font awesome -->
+  		<script defer src="https://use.fontawesome.com/release/v5.0.7/js/all.js"></script>
+  		<link rel="stylesheet" herf="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="" id="tumble">
+			<img src="logo_-removebg-preview.png" class="logo-img">
+        </a>
+        <!--bootstrap start for button mobile-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <a class="nav-link" href="/index.html/">Pricing</a>
+            <li class="nav-item">
+              <a class="nav-link" href="https://play.google.com/store/apps">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lg2.html">Login</a>
+            </li>
+			<div class="dropdown">
+				<button class="btn btn-danger dropdown-toggle dropdown_btn" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+				  Others
+				</button>
+				<ul class="dropdown-menu drop" aria-labelledby="dropdownMenuButton1">
+				  <li><a class="dropdown-item" href="pp.html">Privacy Policy</a></li>
+				  <li><a class="dropdown-item" href="help.html">Help</a></li>
+
+				</ul>
+			  </div>
+          </ul>
+        </div>
+      </nav>
+	<div class="container">
+		<div class="screen">
+			<div class="screen__content">
+				<form class="login">
+					<div class="login__field">
+						<i class="login__icon fas fa-user"></i>
+						<input type="text" id="user" class="login__input" placeholder="Username">
+					</div>
+					<div class="login__field">
+						<i class="login__icon fas fa-lock"></i>
+						<input type="password" id="pass" class="login__input" placeholder="Password">
+					</div>
+                    <div class="login__field">
+						<i class="login__icon fas fa-user"></i>
+						<input type="email" id="email" class="login__input" placeholder="Email">
+					</div>
+                    <div class="login__field">
+						<i class="login__icon fas fa-user"></i>
+						<input type="text" id="name" class="login__input" placeholder="Name">
+					</div>
+					<button class="button login__submit" id="btn_login">
+						<span class="button__text">Signup Now</span>
+						<i class="button__icon fas fa-chevron-right"></i>
+					</button>				
+				</form>
+				<div class="social-login">
+					<h3>Signup via</h3>
+					<div class="social-icons">
+						<a href="https://www.instagram.com/" class="social-login__icon fab fa-instagram"></a>
+						<a href="https://www.facebook.com/" class="social-login__icon fab fa-facebook"></a>
+						<a href="https://twitter.com/" class="social-login__icon fab fa-twitter"></a>
+					</div>
+					<a class="Privacy">Privacy Policy/Terms of Service</a>
+				</div>
+			</div>
+			<div class="screen__background">
+				<span class="screen__background__shape screen__background__shape4"></span>
+				<span class="screen__background__shape screen__background__shape3"></span>		
+				<span class="screen__background__shape screen__background__shape2"></span>
+				<span class="screen__background__shape screen__background__shape1"></span>
+			</div>		
+		</div>
+	</div>
+
+	<script>
+		let button1 = document.getElementById("btn_login");
+	
+		button1.addEventListener("click", function(){
+	  let username = document.getElementById("user").value.trim();
+	  let pass = document.getElementById("pass").value.trim();
+	  let email = document.getElementById("email").value.trim();
+	  let name = document.getElementById("name").value.trim();
+	  console.log("button clicked");
+	  if(username === "" || pass === "" || email == "" || name == ""){
+		alert("Please fill the input boxes.");
+	  }
+	  else{
+		alert("Welcome ✨✨");
+	  }
+	});
+	</script>
+        <!-- Footer -->
+    
+        <center><footer id="footer">
+        <i class="fa-brands fa-twitter social-icons"></i>
+        <i class="fa-brands fa-facebook social-icons"></i>
+        <i class="fa-brands fa-instagram social-icons"></i>
+        <i class="fa-solid fa-envelope social-icons"></i>
+		
+  
+        <p>© Copyright Tumble</p>
+  
+      </footer></center>
+</body>
+</html>
